@@ -1,0 +1,27 @@
+export const qrScanPagetemplate=()=>[
+    {
+        type:'section',
+        content:[
+            {
+                type:'div',
+                attr:{id:'qr-scan'},
+            },
+            {
+                type:'div',
+                classes:['container'],
+                data:{size:'l'},
+                content:[
+                    {
+                        type:'button',
+                        content:[
+                            {
+                                type:'h2',
+                                text:'Close'
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

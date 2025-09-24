@@ -1,0 +1,1 @@
+export const isAlphabetOnly=str=>/^[A-Za-z ]+$/.test(str);
